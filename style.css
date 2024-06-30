@@ -1,0 +1,217 @@
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(pattern.jpg.webp);
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.active, .navbar ul li a:hover{
+    color: rgb(0, 107, 0);
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.contant{
+    margin-left: 7%;
+    color: white;
+    display: flex;
+}
+.h1{
+    display: flex;
+    margin-left: 7%;
+    font-size: 40px;
+    color: white;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    margin-top: 15%;
+    position: absolute;
+    height: 140%;
+    left: 80%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+img:hover .girl{
+    left: 75%;
+}
+.img{
+    display: flex;
+    margin-left: 7;
+}
+.img img:hover{
+    transform: scale(1.04);
+}
+hr{
+    margin-right: 85%;
+    width: 10%;
+    border: 1px solid rgb(0, 107, 0);
+}
+.p1{
+    font-weight: 300;
+    margin-left: 7%;
+    color: #949494;
+}
+.h12{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 40px;
+}
+#i1{
+    display: flex;
+    margin-top: 5%;
+    font-size: x-large;
+    margin-bottom: 12px;
+    height: 72px;
+    width: 72px;
+    background: rgb(76, 189, 76);
+    display: inline-block;
+    line-height: 72px;
+    text-align: center;
+    border-radius: 51px;
+    margin-bottom: 32px;
+    margin-left: 10%;
+}
+.first{
+    display: flex;
+}
+.first .h2{
+    margin-top: 7%;
+    margin-left: 5%;
+    text-transform: capitalize;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: xx-large;
+}
+.row{
+    display: flex;
+}
+.col{
+    margin-left: 8%;
+}
+.col p{
+    font-size: larger;
+    color: #949494;
+    margin-left: 10%;
+}
+.about_img{
+    margin-left: 12%;
+}
+.load{
+    height: 300vh;
+    width: 100%;
+    background: #f2f2f2;
+}
+.load .heading_1{
+    text-align: center;
+    font-size: 40px;
+}
+.load .p5{
+    text-align: center;
+    font-size: larger;
+    color: #949494;
+}
+.load_hr{
+    margin-left: 50%;
+    width: 10%;
+    border: 1px solid rgb(0, 107, 0);
+}
+.load .text{
+    margin-left: 8%;
+    margin-top: 5%;
+    color: rgb(112, 112, 112);
+}
+.work hr{
+    margin-left: 35%;
+     width: 30%;
+     border: 1px solid rgb(221, 221, 221);
+}
+.work img{
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.txt{
+    display: flex;
+}
+span{
+    color: #949494;
+}
+.txt .p3{
+    margin-top: 11%;
+    margin-left: 3%;
+    font-size: larger;
+    color: rgb(0, 107, 0);
+}
+span:hover{
+    color: black;
+    cursor: pointer;
+}
+.work .text{
+    margin-top: 1%;
+    margin-left: 20%;
+}
+.work .row .col{
+    margin-left: 10%;
+}
+.footer{
+    background: #000;
+    width: 100%;
+    height: 50vh;
+}
+.heading{
+    color: rgb(0, 107, 0);
+    text-align: center;
+}
+p{
+    color: #6d6d6d;
+    font-size: x-large;
+    text-align: center;
+
+}
+.email{
+    height: 100%;
+    margin-left: 20%;
+}
+input{
+    margin-left: 20px;
+    background: #252525;
+    border: 1px solid transparent;
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+}
+.span{
+    color: #fff;
+}
+.span:hover{
+    color: #006b00;
+    transition: 0.2s ease;
+}
+.copyright hr{
+    width: 100%;
+    color: #fff;
+}
